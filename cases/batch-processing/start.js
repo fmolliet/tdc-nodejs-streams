@@ -7,7 +7,6 @@ const readStream = fs.createReadStream('./examples/transform/logs.json');
 
 
 readStream
-        .pipe(PassThrough)
         .pipe(criticalEventsProcessor)
         .pipe(resultProcessor);
         
