@@ -130,3 +130,4 @@ target/
 *.env.local
 *.env.production
 *.xlsx
+*.dat
