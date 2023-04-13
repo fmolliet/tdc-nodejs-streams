@@ -1,7 +1,7 @@
 const fs = require('fs')
 const es = require('event-stream')
 
-const readStream = fs.createReadStream('./examples/transform/logs.json', );
+const readStream = fs.createReadStream('./examples/transform/logs.json' );
 
 const JSONStream = require('JSONStream')
 
